@@ -1,454 +1,189 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>SAT Day8 Ultimate V5 朗读暂停版</title>
-<style>
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Microsoft YaHei",sans-serif;background:#f4f6f8;color:#111;line-height:1.65}
-header{position:sticky;top:0;background:white;padding:16px;box-shadow:0 2px 12px rgba(0,0,0,.08);z-index:10}header h1{font-size:22px;margin:0 0 6px}header p{margin:0;color:#666;font-size:15px}
-.nav{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}.nav a,.topbtn{border:0;border-radius:999px;padding:8px 12px;background:#111;color:white;text-decoration:none;font-size:15px;cursor:pointer}.gray{background:#555!important}
-.container{max-width:920px;margin:0 auto;padding:14px}.section-title{font-size:30px;background:#eaf0ff;padding:16px;border-radius:18px;margin:22px 0 14px}
-.card,.panel{background:#fff;border-radius:20px;padding:24px;margin:18px 0;box-shadow:0 4px 16px rgba(0,0,0,.08)}.topline{display:flex;align-items:center;justify-content:space-between;gap:10px}h2{font-size:34px;margin:0 0 16px}
-.sound{width:100%;display:block;font-size:28px;font-weight:650;padding:14px 12px;margin:6px 0 14px;background:#fff;border:2px solid #e2e2e2;border-radius:14px;cursor:pointer;text-align:left}
-.word{border-bottom:1px dotted #888}.ipa,.spell{font-size:23px;margin:10px 0;color:#222}.spell{color:#555}.sentence{font-size:24px;line-height:1.45}
-p,li{font-size:24px;margin:16px 0}.info{border-left:5px solid #ddd;padding-left:14px;margin-top:18px}.sub{margin-top:28px}.opts li{font-size:22px;margin:8px 0}
-.smallbtn{border:0;border-radius:999px;padding:9px 14px;font-size:16px;background:#111;color:white;cursor:pointer;white-space:nowrap}.teacher,.answerbox{margin-top:14px;border:1px solid #e5e5e5;border-radius:14px;padding:12px 14px;background:#fafafa}.teacher summary,.answerbox summary{font-size:22px;font-weight:700;cursor:pointer}.story{font-size:23px;white-space:pre-line}.audio-controls{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}.footer{text-align:center;color:#666;padding:28px 10px 40px}
-@media(max-width:600px){.container{padding:10px}.card,.panel{padding:20px 16px;border-radius:18px}h2{font-size:30px}.sound{font-size:24px;padding:13px 10px}.sentence{font-size:21px}p,li,.ipa,.spell{font-size:21px}header h1{font-size:20px}.section-title{font-size:25px}}
-</style>
-</head>
-<body>
-<header>
-  <h1>SAT 高频1000词｜Day 8 Ultimate V5 朗读暂停版</h1>
-  <p>含 IPA 音标、拼读、发音、老师讲解、短文朗读暂停/继续/停止、隐藏答案阅读题和 Word 原练习。</p>
-  <div class="nav"><a href="#vocab">词汇卡</a><a href="#quiz">小测</a><a href="#reading">阅读</a><a href="#cloze">填空</a><button class="topbtn" onclick="playAll()">▶ 播放 Day8 全部</button></div>
-</header>
-<main class="container">
-<h1 id="vocab" class="section-title">Day 8 词汇卡｜204–232</h1>
-
-<article class="card">
-  <div class="topline"><h2>204. circumscribed</h2><button class="smallbtn" onclick='playBoth("circumscribed", "The committee worked within a circumscribed budget and could not fund every project.")'>▶ 连读</button></div>
-  <button class="sound" onclick='speak("circumscribed",0.78)'>🔊 <span class="word">circumscribed</span></button>
-  <p class="ipa"><b>IPA 音标：</b>/ˈsɝː.kəm.skraɪbd/</p>
-  <p class="spell"><b>拼读：</b>SER-kum-skrybd</p>
-  <div class="info"><p><b>中文：</b>有界限的；受限制的</p><p><b>英文：</b>marked off, bounded</p></div>
-  <p class="sub"><b>例句发音：</b></p>
-  <button class="sound sentence" onclick='speak("The committee worked within a circumscribed budget and could not fund every project.",0.82)'>🔊 The committee worked within a circumscribed budget and could not fund every project.</button>
-  <p><b>SAT例句：</b><br>The committee worked within a circumscribed budget and could not fund every project.</p>
-  <p><b>中文翻译：</b><br>委员会在有限的预算内工作，无法资助每一个项目。</p>
-  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>circum- 表示 around，scribe 和画线有关；circumscribed 就像被画了一圈边界，表示范围受限。</p></details>
-</article>
-
-<article class="card">
-  <div class="topline"><h2>205. circumspect</h2><button class="smallbtn" onclick='playBoth("circumspect", "A circumspect leader considers every risk before making a decision.")'>▶ 连读</button></div>
-  <button class="sound" onclick='speak("circumspect",0.78)'>🔊 <span class="word">circumspect</span></button>
-  <p class="ipa"><b>IPA 音标：</b>/ˈsɝː.kəm.spekt/</p>
-  <p class="spell"><b>拼读：</b>SER-kum-spekt</p>
-  <div class="info"><p><b>中文：</b>谨慎的；小心的</p><p><b>英文：</b>cautious</p></div>
-  <p class="sub"><b>例句发音：</b></p>
-  <button class="sound sentence" onclick='speak("A circumspect leader considers every risk before making a decision.",0.82)'>🔊 A circumspect leader considers every risk before making a decision.</button>
-  <p><b>SAT例句：</b><br>A circumspect leader considers every risk before making a decision.</p>
-  <p><b>中文翻译：</b><br>谨慎的领导者在做决定前会考虑每一种风险。</p>
-  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>SAT高频态度词，常和 cautious, prudent 同义。不是害怕，而是深思熟虑。</p></details>
-</article>
-
-<article class="card">
-  <div class="topline"><h2>206. circumvent</h2><button class="smallbtn" onclick='playBoth("circumvent", "The company tried to circumvent the rule by using a legal loophole.")'>▶ 连读</button></div>
-  <button class="sound" onclick='speak("circumvent",0.78)'>🔊 <span class="word">circumvent</span></button>
-  <p class="ipa"><b>IPA 音标：</b>/ˌsɝː.kəmˈvent/</p>
-  <p class="spell"><b>拼读：</b>ser-kum-VENT</p>
-  <div class="info"><p><b>中文：</b>规避；绕开</p><p><b>英文：</b>to get around</p></div>
-  <p class="sub"><b>例句发音：</b></p>
-  <button class="sound sentence" onclick='speak("The company tried to circumvent the rule by using a legal loophole.",0.82)'>🔊 The company tried to circumvent the rule by using a legal loophole.</button>
-  <p><b>SAT例句：</b><br>The company tried to circumvent the rule by using a legal loophole.</p>
-  <p><b>中文翻译：</b><br>这家公司试图利用法律漏洞规避规定。</p>
-  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>circum- around + vent 去；核心是“绕过去”，常用于法律、规则、限制。</p></details>
-</article>
-
-<article class="card">
-  <div class="topline"><h2>207. clairvoyant</h2><button class="smallbtn" onclick='playBoth("clairvoyant", "The clairvoyant prediction impressed the crowd, although no one could prove it.")'>▶ 连读</button></div>
-  <button class="sound" onclick='speak("clairvoyant",0.78)'>🔊 <span class="word">clairvoyant</span></button>
-  <p class="ipa"><b>IPA 音标：</b>/klerˈvɔɪ.ənt/</p>
-  <p class="spell"><b>拼读：</b>klair-VOY-unt</p>
-  <div class="info"><p><b>中文：</b>有洞察力的；似有预见能力的</p><p><b>英文：</b>able to perceive things beyond normal ability</p></div>
-  <p class="sub"><b>例句发音：</b></p>
-  <button class="sound sentence" onclick='speak("The clairvoyant prediction impressed the crowd, although no one could prove it.",0.82)'>🔊 The clairvoyant prediction impressed the crowd, although no one could prove it.</button>
-  <p><b>SAT例句：</b><br>The clairvoyant prediction impressed the crowd, although no one could prove it.</p>
-  <p><b>中文翻译：</b><br>这个似有预见能力的预测让人群印象深刻，尽管没人能证明它。</p>
-  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>clair- clear，voyant 和看有关；字面像“看得清”。SAT中可指超常洞察。</p></details>
-</article>
-
-<article class="card">
-  <div class="topline"><h2>208. clamor</h2><button class="smallbtn" onclick='playBoth("clamor", "A clamor rose outside the courthouse as reporters demanded answers.")'>▶ 连读</button></div>
-  <button class="sound" onclick='speak("clamor",0.78)'>🔊 <span class="word">clamor</span></button>
-  <p class="ipa"><b>IPA 音标：</b>/ˈklæm.ɚ/</p>
-  <p class="spell"><b>拼读：</b>KLAM-er</p>
-  <div class="info"><p><b>中文：</b>喧闹声；大声要求</p><p><b>英文：</b>loud noise; to loudly insist</p></div>
-  <p class="sub"><b>例句发音：</b></p>
-  <button class="sound sentence" onclick='speak("A clamor rose outside the courthouse as reporters demanded answers.",0.82)'>🔊 A clamor rose outside the courthouse as reporters demanded answers.</button>
-  <p><b>SAT例句：</b><br>A clamor rose outside the courthouse as reporters demanded answers.</p>
-  <p><b>中文翻译：</b><br>记者要求回答时，法院外响起一片喧闹声。</p>
-  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>既可作名词也可作动词。常表示群众大声要求或嘈杂呼声。</p></details>
-</article>
-
-<article class="card">
-  <div class="topline"><h2>209. clandestine</h2><button class="smallbtn" onclick='playBoth("clandestine", "The spies held a clandestine meeting behind the old library.")'>▶ 连读</button></div>
-  <button class="sound" onclick='speak("clandestine",0.78)'>🔊 <span class="word">clandestine</span></button>
-  <p class="ipa"><b>IPA 音标：</b>/klænˈdes.tɪn/</p>
-  <p class="spell"><b>拼读：</b>klan-DES-tin</p>
-  <div class="info"><p><b>中文：</b>秘密的；私下进行的</p><p><b>英文：</b>secret</p></div>
-  <p class="sub"><b>例句发音：</b></p>
-  <button class="sound sentence" onclick='speak("The spies held a clandestine meeting behind the old library.",0.82)'>🔊 The spies held a clandestine meeting behind the old library.</button>
-  <p><b>SAT例句：</b><br>The spies held a clandestine meeting behind the old library.</p>
-  <p><b>中文翻译：</b><br>间谍们在旧图书馆后面举行了一次秘密会议。</p>
-  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>比 secret 更正式，常带非法、隐秘或不公开的感觉。</p></details>
-</article>
-
-<article class="card">
-  <div class="topline"><h2>210. cleave</h2><button class="smallbtn" onclick='playBoth("cleave", "The blade can cleave the wood, but the child still cleaves to his old teddy bear.")'>▶ 连读</button></div>
-  <button class="sound" onclick='speak("cleave",0.78)'>🔊 <span class="word">cleave</span></button>
-  <p class="ipa"><b>IPA 音标：</b>/kliːv/</p>
-  <p class="spell"><b>拼读：</b>kleev</p>
-  <div class="info"><p><b>中文：</b>劈开；紧紧依附</p><p><b>英文：</b>to split apart; to cling closely</p></div>
-  <p class="sub"><b>例句发音：</b></p>
-  <button class="sound sentence" onclick='speak("The blade can cleave the wood, but the child still cleaves to his old teddy bear.",0.82)'>🔊 The blade can cleave the wood, but the child still cleaves to his old teddy bear.</button>
-  <p><b>SAT例句：</b><br>The blade can cleave the wood, but the child still cleaves to his old teddy bear.</p>
-  <p><b>中文翻译：</b><br>这把刀能劈开木头，但那个孩子仍紧紧依恋他的旧泰迪熊。</p>
-  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>经典反义一词多义：既可表示劈开，也可表示紧紧依附。SAT可能考语境判断。</p></details>
-</article>
-
-<article class="card">
-  <div class="topline"><h2>211. clemency</h2><button class="smallbtn" onclick='playBoth("clemency", "The judge showed clemency and reduced the young man’s sentence.")'>▶ 连读</button></div>
-  <button class="sound" onclick='speak("clemency",0.78)'>🔊 <span class="word">clemency</span></button>
-  <p class="ipa"><b>IPA 音标：</b>/ˈklem.ən.si/</p>
-  <p class="spell"><b>拼读：</b>KLEM-un-see</p>
-  <div class="info"><p><b>中文：</b>宽恕；仁慈</p><p><b>英文：</b>mercy</p></div>
-  <p class="sub"><b>例句发音：</b></p>
-  <button class="sound sentence" onclick='speak("The judge showed clemency and reduced the young man’s sentence.",0.82)'>🔊 The judge showed clemency and reduced the young man’s sentence.</button>
-  <p><b>SAT例句：</b><br>The judge showed clemency and reduced the young man’s sentence.</p>
-  <p><b>中文翻译：</b><br>法官表现出仁慈，减轻了那个年轻人的刑罚。</p>
-  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>常见法律语境，和 mercy, leniency 同义。</p></details>
-</article>
-
-<article class="card">
-  <div class="topline"><h2>212. clergy</h2><button class="smallbtn" onclick='playBoth("clergy", "The clergy organized food and shelter for families after the flood.")'>▶ 连读</button></div>
-  <button class="sound" onclick='speak("clergy",0.78)'>🔊 <span class="word">clergy</span></button>
-  <p class="ipa"><b>IPA 音标：</b>/ˈklɝː.dʒi/</p>
-  <p class="spell"><b>拼读：</b>KLER-jee</p>
-  <div class="info"><p><b>中文：</b>神职人员</p><p><b>英文：</b>members of Christian holy orders</p></div>
-  <p class="sub"><b>例句发音：</b></p>
-  <button class="sound sentence" onclick='speak("The clergy organized food and shelter for families after the flood.",0.82)'>🔊 The clergy organized food and shelter for families after the flood.</button>
-  <p><b>SAT例句：</b><br>The clergy organized food and shelter for families after the flood.</p>
-  <p><b>中文翻译：</b><br>洪水后，神职人员为家庭组织食物和住所。</p>
-  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>集合名词，指神职人员整体。注意不是 church building。</p></details>
-</article>
-
-<article class="card">
-  <div class="topline"><h2>213. cloying</h2><button class="smallbtn" onclick='playBoth("cloying", "The dessert was so cloying that most guests could not finish it.")'>▶ 连读</button></div>
-  <button class="sound" onclick='speak("cloying",0.78)'>🔊 <span class="word">cloying</span></button>
-  <p class="ipa"><b>IPA 音标：</b>/ˈklɔɪ.ɪŋ/</p>
-  <p class="spell"><b>拼读：</b>KLOY-ing</p>
-  <div class="info"><p><b>中文：</b>甜得发腻的；过分殷勤而令人厌烦的</p><p><b>英文：</b>sickeningly sweet</p></div>
-  <p class="sub"><b>例句发音：</b></p>
-  <button class="sound sentence" onclick='speak("The dessert was so cloying that most guests could not finish it.",0.82)'>🔊 The dessert was so cloying that most guests could not finish it.</button>
-  <p><b>SAT例句：</b><br>The dessert was so cloying that most guests could not finish it.</p>
-  <p><b>中文翻译：</b><br>这道甜点甜得发腻，大多数客人都吃不完。</p>
-  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>不只形容食物，也可形容情感表达过度、讨好到令人厌烦。</p></details>
-</article>
-
-<article class="card">
-  <div class="topline"><h2>214. coagulate</h2><button class="smallbtn" onclick='playBoth("coagulate", "The blood began to coagulate soon after the injury.")'>▶ 连读</button></div>
-  <button class="sound" onclick='speak("coagulate",0.78)'>🔊 <span class="word">coagulate</span></button>
-  <p class="ipa"><b>IPA 音标：</b>/koʊˈæɡ.jə.leɪt/</p>
-  <p class="spell"><b>拼读：</b>koh-AG-yuh-layt</p>
-  <div class="info"><p><b>中文：</b>凝结；凝固</p><p><b>英文：</b>to thicken, clot</p></div>
-  <p class="sub"><b>例句发音：</b></p>
-  <button class="sound sentence" onclick='speak("The blood began to coagulate soon after the injury.",0.82)'>🔊 The blood began to coagulate soon after the injury.</button>
-  <p><b>SAT例句：</b><br>The blood began to coagulate soon after the injury.</p>
-  <p><b>中文翻译：</b><br>受伤后不久，血液开始凝固。</p>
-  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>常用于科学、生物、医学语境。和 clot 关系密切。</p></details>
-</article>
-
-<article class="card">
-  <div class="topline"><h2>215. coalesce</h2><button class="smallbtn" onclick='playBoth("coalesce", "Several small ideas coalesced into one clear plan.")'>▶ 连读</button></div>
-  <button class="sound" onclick='speak("coalesce",0.78)'>🔊 <span class="word">coalesce</span></button>
-  <p class="ipa"><b>IPA 音标：</b>/ˌkoʊ.əˈles/</p>
-  <p class="spell"><b>拼读：</b>koh-uh-LES</p>
-  <div class="info"><p><b>中文：</b>合并；联合</p><p><b>英文：</b>to fuse into a whole</p></div>
-  <p class="sub"><b>例句发音：</b></p>
-  <button class="sound sentence" onclick='speak("Several small ideas coalesced into one clear plan.",0.82)'>🔊 Several small ideas coalesced into one clear plan.</button>
-  <p><b>SAT例句：</b><br>Several small ideas coalesced into one clear plan.</p>
-  <p><b>中文翻译：</b><br>几个小想法合并成了一个清晰的计划。</p>
-  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>co- together，常表示多个部分合成一个整体。</p></details>
-</article>
-
-<article class="card">
-  <div class="topline"><h2>216. cobbler</h2><button class="smallbtn" onclick='playBoth("cobbler", "The cobbler repaired the traveler’s worn leather boots.")'>▶ 连读</button></div>
-  <button class="sound" onclick='speak("cobbler",0.78)'>🔊 <span class="word">cobbler</span></button>
-  <p class="ipa"><b>IPA 音标：</b>/ˈkɑː.blɚ/</p>
-  <p class="spell"><b>拼读：</b>KAHB-ler</p>
-  <div class="info"><p><b>中文：</b>鞋匠</p><p><b>英文：</b>a person who makes or repairs shoes</p></div>
-  <p class="sub"><b>例句发音：</b></p>
-  <button class="sound sentence" onclick='speak("The cobbler repaired the traveler’s worn leather boots.",0.82)'>🔊 The cobbler repaired the traveler’s worn leather boots.</button>
-  <p><b>SAT例句：</b><br>The cobbler repaired the traveler’s worn leather boots.</p>
-  <p><b>中文翻译：</b><br>鞋匠修好了旅行者磨损的皮靴。</p>
-  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>常见职业名词，也可能出现在历史或文学文本中。</p></details>
-</article>
-
-<article class="card">
-  <div class="topline"><h2>217. coerce</h2><button class="smallbtn" onclick='playBoth("coerce", "The official was accused of trying to coerce witnesses into silence.")'>▶ 连读</button></div>
-  <button class="sound" onclick='speak("coerce",0.78)'>🔊 <span class="word">coerce</span></button>
-  <p class="ipa"><b>IPA 音标：</b>/koʊˈɝːs/</p>
-  <p class="spell"><b>拼读：</b>koh-ERS</p>
-  <div class="info"><p><b>中文：</b>强迫；胁迫</p><p><b>英文：</b>to force someone to do something</p></div>
-  <p class="sub"><b>例句发音：</b></p>
-  <button class="sound sentence" onclick='speak("The official was accused of trying to coerce witnesses into silence.",0.82)'>🔊 The official was accused of trying to coerce witnesses into silence.</button>
-  <p><b>SAT例句：</b><br>The official was accused of trying to coerce witnesses into silence.</p>
-  <p><b>中文翻译：</b><br>这名官员被指控试图胁迫证人保持沉默。</p>
-  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>比 persuade 强很多，是用压力、威胁或权力强迫。</p></details>
-</article>
-
-<article class="card">
-  <div class="topline"><h2>218. cogent</h2><button class="smallbtn" onclick='playBoth("cogent", "Her cogent argument changed the committee’s opinion.")'>▶ 连读</button></div>
-  <button class="sound" onclick='speak("cogent",0.78)'>🔊 <span class="word">cogent</span></button>
-  <p class="ipa"><b>IPA 音标：</b>/ˈkoʊ.dʒənt/</p>
-  <p class="spell"><b>拼读：</b>KOH-junt</p>
-  <div class="info"><p><b>中文：</b>令人信服的；有说服力的</p><p><b>英文：</b>intellectually convincing</p></div>
-  <p class="sub"><b>例句发音：</b></p>
-  <button class="sound sentence" onclick='speak("Her cogent argument changed the committee’s opinion.",0.82)'>🔊 Her cogent argument changed the committee’s opinion.</button>
-  <p><b>SAT例句：</b><br>Her cogent argument changed the committee’s opinion.</p>
-  <p><b>中文翻译：</b><br>她有说服力的论证改变了委员会的看法。</p>
-  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>SAT高频论证词。cogent argument = 有力论证。</p></details>
-</article>
-
-<article class="card">
-  <div class="topline"><h2>219. cognizant</h2><button class="smallbtn" onclick='playBoth("cognizant", "Good writers are cognizant of their audience’s expectations.")'>▶ 连读</button></div>
-  <button class="sound" onclick='speak("cognizant",0.78)'>🔊 <span class="word">cognizant</span></button>
-  <p class="ipa"><b>IPA 音标：</b>/ˈkɑːɡ.nə.zənt/</p>
-  <p class="spell"><b>拼读：</b>KAHG-nuh-zunt</p>
-  <div class="info"><p><b>中文：</b>意识到的；知晓的</p><p><b>英文：</b>aware, mindful</p></div>
-  <p class="sub"><b>例句发音：</b></p>
-  <button class="sound sentence" onclick='speak("Good writers are cognizant of their audience’s expectations.",0.82)'>🔊 Good writers are cognizant of their audience’s expectations.</button>
-  <p><b>SAT例句：</b><br>Good writers are cognizant of their audience’s expectations.</p>
-  <p><b>中文翻译：</b><br>优秀作家会意识到读者的期待。</p>
-  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>常见搭配：be cognizant of = 意识到。</p></details>
-</article>
-
-<article class="card">
-  <div class="topline"><h2>220. coherent</h2><button class="smallbtn" onclick='playBoth("coherent", "The student wrote a coherent essay with a clear structure.")'>▶ 连读</button></div>
-  <button class="sound" onclick='speak("coherent",0.78)'>🔊 <span class="word">coherent</span></button>
-  <p class="ipa"><b>IPA 音标：</b>/koʊˈhɪr.ənt/</p>
-  <p class="spell"><b>拼读：</b>koh-HEER-unt</p>
-  <div class="info"><p><b>中文：</b>连贯的；条理清楚的</p><p><b>英文：</b>logically consistent, intelligible</p></div>
-  <p class="sub"><b>例句发音：</b></p>
-  <button class="sound sentence" onclick='speak("The student wrote a coherent essay with a clear structure.",0.82)'>🔊 The student wrote a coherent essay with a clear structure.</button>
-  <p><b>SAT例句：</b><br>The student wrote a coherent essay with a clear structure.</p>
-  <p><b>中文翻译：</b><br>这名学生写了一篇结构清晰、条理连贯的文章。</p>
-  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>写作和阅读常考。coherent = logically connected。</p></details>
-</article>
-
-<article class="card">
-  <div class="topline"><h2>221. collateral</h2><button class="smallbtn" onclick='playBoth("collateral", "The bank required collateral before approving the loan.")'>▶ 连读</button></div>
-  <button class="sound" onclick='speak("collateral",0.78)'>🔊 <span class="word">collateral</span></button>
-  <p class="ipa"><b>IPA 音标：</b>/kəˈlæt̬.ɚ.əl/</p>
-  <p class="spell"><b>拼读：</b>kuh-LAT-er-ul</p>
-  <div class="info"><p><b>中文：</b>附带的；抵押品</p><p><b>英文：</b>secondary; security for a debt</p></div>
-  <p class="sub"><b>例句发音：</b></p>
-  <button class="sound sentence" onclick='speak("The bank required collateral before approving the loan.",0.82)'>🔊 The bank required collateral before approving the loan.</button>
-  <p><b>SAT例句：</b><br>The bank required collateral before approving the loan.</p>
-  <p><b>中文翻译：</b><br>银行在批准贷款前要求抵押品。</p>
-  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>金融语境常指抵押品；抽象语境也可指附带的、间接的。</p></details>
-</article>
-
-<article class="card">
-  <div class="topline"><h2>222. colloquial</h2><button class="smallbtn" onclick='playBoth("colloquial", "The phrase was too colloquial for a formal academic essay.")'>▶ 连读</button></div>
-  <button class="sound" onclick='speak("colloquial",0.78)'>🔊 <span class="word">colloquial</span></button>
-  <p class="ipa"><b>IPA 音标：</b>/kəˈloʊ.kwi.əl/</p>
-  <p class="spell"><b>拼读：</b>kuh-LOH-kwee-ul</p>
-  <div class="info"><p><b>中文：</b>口语化的</p><p><b>英文：</b>informal, conversational</p></div>
-  <p class="sub"><b>例句发音：</b></p>
-  <button class="sound sentence" onclick='speak("The phrase was too colloquial for a formal academic essay.",0.82)'>🔊 The phrase was too colloquial for a formal academic essay.</button>
-  <p><b>SAT例句：</b><br>The phrase was too colloquial for a formal academic essay.</p>
-  <p><b>中文翻译：</b><br>这个表达对正式学术论文来说太口语化了。</p>
-  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>SAT写作语境常见，和 formal language 对比。</p></details>
-</article>
-
-<article class="card">
-  <div class="topline"><h2>223. collusion</h2><button class="smallbtn" onclick='playBoth("collusion", "The investigation found evidence of collusion between the two companies.")'>▶ 连读</button></div>
-  <button class="sound" onclick='speak("collusion",0.78)'>🔊 <span class="word">collusion</span></button>
-  <p class="ipa"><b>IPA 音标：</b>/kəˈluː.ʒən/</p>
-  <p class="spell"><b>拼读：</b>kuh-LOO-zhun</p>
-  <div class="info"><p><b>中文：</b>串通；共谋</p><p><b>英文：</b>secret agreement, conspiracy</p></div>
-  <p class="sub"><b>例句发音：</b></p>
-  <button class="sound sentence" onclick='speak("The investigation found evidence of collusion between the two companies.",0.82)'>🔊 The investigation found evidence of collusion between the two companies.</button>
-  <p><b>SAT例句：</b><br>The investigation found evidence of collusion between the two companies.</p>
-  <p><b>中文翻译：</b><br>调查发现两家公司之间有串通的证据。</p>
-  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>通常带负面含义，强调秘密合作做坏事。</p></details>
-</article>
-
-<article class="card">
-  <div class="topline"><h2>224. colossus</h2><button class="smallbtn" onclick='playBoth("colossus", "The technology firm became a colossus in the global market.")'>▶ 连读</button></div>
-  <button class="sound" onclick='speak("colossus",0.78)'>🔊 <span class="word">colossus</span></button>
-  <p class="ipa"><b>IPA 音标：</b>/kəˈlɑː.səs/</p>
-  <p class="spell"><b>拼读：</b>kuh-LAH-sus</p>
-  <div class="info"><p><b>中文：</b>巨像；庞然大物</p><p><b>英文：</b>a gigantic statue or thing</p></div>
-  <p class="sub"><b>例句发音：</b></p>
-  <button class="sound sentence" onclick='speak("The technology firm became a colossus in the global market.",0.82)'>🔊 The technology firm became a colossus in the global market.</button>
-  <p><b>SAT例句：</b><br>The technology firm became a colossus in the global market.</p>
-  <p><b>中文翻译：</b><br>这家科技公司成了全球市场上的庞然大物。</p>
-  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>可指巨大雕像，也可比喻巨型组织或强大人物。</p></details>
-</article>
-
-<article class="card">
-  <div class="topline"><h2>225. combustion</h2><button class="smallbtn" onclick='playBoth("combustion", "Combustion releases heat and light when fuel reacts with oxygen.")'>▶ 连读</button></div>
-  <button class="sound" onclick='speak("combustion",0.78)'>🔊 <span class="word">combustion</span></button>
-  <p class="ipa"><b>IPA 音标：</b>/kəmˈbʌs.tʃən/</p>
-  <p class="spell"><b>拼读：</b>kum-BUS-chun</p>
-  <div class="info"><p><b>中文：</b>燃烧</p><p><b>英文：</b>the act or process of burning</p></div>
-  <p class="sub"><b>例句发音：</b></p>
-  <button class="sound sentence" onclick='speak("Combustion releases heat and light when fuel reacts with oxygen.",0.82)'>🔊 Combustion releases heat and light when fuel reacts with oxygen.</button>
-  <p><b>SAT例句：</b><br>Combustion releases heat and light when fuel reacts with oxygen.</p>
-  <p><b>中文翻译：</b><br>燃料与氧气反应时，燃烧会释放热和光。</p>
-  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>科学词，常见于化学、能源、环境文章。</p></details>
-</article>
-
-<article class="card">
-  <div class="topline"><h2>226. commendation</h2><button class="smallbtn" onclick='playBoth("commendation", "The volunteer received a commendation for years of service.")'>▶ 连读</button></div>
-  <button class="sound" onclick='speak("commendation",0.78)'>🔊 <span class="word">commendation</span></button>
-  <p class="ipa"><b>IPA 音标：</b>/ˌkɑː.mənˈdeɪ.ʃən/</p>
-  <p class="spell"><b>拼读：</b>kah-mun-DAY-shun</p>
-  <div class="info"><p><b>中文：</b>表扬；嘉奖</p><p><b>英文：</b>approval or recognition</p></div>
-  <p class="sub"><b>例句发音：</b></p>
-  <button class="sound sentence" onclick='speak("The volunteer received a commendation for years of service.",0.82)'>🔊 The volunteer received a commendation for years of service.</button>
-  <p><b>SAT例句：</b><br>The volunteer received a commendation for years of service.</p>
-  <p><b>中文翻译：</b><br>这名志愿者因多年服务获得嘉奖。</p>
-  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>来自 commend 表扬。正式语气，常用于奖项或官方认可。</p></details>
-</article>
-
-<article class="card">
-  <div class="topline"><h2>227. commensurate</h2><button class="smallbtn" onclick='playBoth("commensurate", "Her salary should be commensurate with her experience.")'>▶ 连读</button></div>
-  <button class="sound" onclick='speak("commensurate",0.78)'>🔊 <span class="word">commensurate</span></button>
-  <p class="ipa"><b>IPA 音标：</b>/kəˈmen.sɚ.ət/</p>
-  <p class="spell"><b>拼读：</b>kuh-MEN-sur-ut</p>
-  <div class="info"><p><b>中文：</b>相称的；相应的</p><p><b>英文：</b>corresponding in size or amount</p></div>
-  <p class="sub"><b>例句发音：</b></p>
-  <button class="sound sentence" onclick='speak("Her salary should be commensurate with her experience.",0.82)'>🔊 Her salary should be commensurate with her experience.</button>
-  <p><b>SAT例句：</b><br>Her salary should be commensurate with her experience.</p>
-  <p><b>中文翻译：</b><br>她的薪水应与她的经验相称。</p>
-  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>常见搭配：commensurate with。表示程度、数量相匹配。</p></details>
-</article>
-
-<article class="card">
-  <div class="topline"><h2>228. commodious</h2><button class="smallbtn" onclick='playBoth("commodious", "The family rented a commodious house near the school.")'>▶ 连读</button></div>
-  <button class="sound" onclick='speak("commodious",0.78)'>🔊 <span class="word">commodious</span></button>
-  <p class="ipa"><b>IPA 音标：</b>/kəˈmoʊ.di.əs/</p>
-  <p class="spell"><b>拼读：</b>kuh-MOH-dee-us</p>
-  <div class="info"><p><b>中文：</b>宽敞的</p><p><b>英文：</b>roomy</p></div>
-  <p class="sub"><b>例句发音：</b></p>
-  <button class="sound sentence" onclick='speak("The family rented a commodious house near the school.",0.82)'>🔊 The family rented a commodious house near the school.</button>
-  <p><b>SAT例句：</b><br>The family rented a commodious house near the school.</p>
-  <p><b>中文翻译：</b><br>这家人在学校附近租了一栋宽敞的房子。</p>
-  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>正式词，比 roomy 更书面。</p></details>
-</article>
-
-<article class="card">
-  <div class="topline"><h2>229. compelling</h2><button class="smallbtn" onclick='playBoth("compelling", "The speaker gave a compelling reason to support the new policy.")'>▶ 连读</button></div>
-  <button class="sound" onclick='speak("compelling",0.78)'>🔊 <span class="word">compelling</span></button>
-  <p class="ipa"><b>IPA 音标：</b>/kəmˈpel.ɪŋ/</p>
-  <p class="spell"><b>拼读：</b>kum-PEL-ing</p>
-  <div class="info"><p><b>中文：</b>引人注目的；令人信服的</p><p><b>英文：</b>demanding attention, persuasive</p></div>
-  <p class="sub"><b>例句发音：</b></p>
-  <button class="sound sentence" onclick='speak("The speaker gave a compelling reason to support the new policy.",0.82)'>🔊 The speaker gave a compelling reason to support the new policy.</button>
-  <p><b>SAT例句：</b><br>The speaker gave a compelling reason to support the new policy.</p>
-  <p><b>中文翻译：</b><br>演讲者给出了支持新政策的有力理由。</p>
-  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>SAT高频，既可指吸引注意，也可指论证有说服力。</p></details>
-</article>
-
-<article class="card">
-  <div class="topline"><h2>230. compensate</h2><button class="smallbtn" onclick='playBoth("compensate", "The company agreed to compensate customers for the delay.")'>▶ 连读</button></div>
-  <button class="sound" onclick='speak("compensate",0.78)'>🔊 <span class="word">compensate</span></button>
-  <p class="ipa"><b>IPA 音标：</b>/ˈkɑːm.pən.seɪt/</p>
-  <p class="spell"><b>拼读：</b>KAHM-pun-sayt</p>
-  <div class="info"><p><b>中文：</b>补偿；弥补</p><p><b>英文：</b>to make up for, repay</p></div>
-  <p class="sub"><b>例句发音：</b></p>
-  <button class="sound sentence" onclick='speak("The company agreed to compensate customers for the delay.",0.82)'>🔊 The company agreed to compensate customers for the delay.</button>
-  <p><b>SAT例句：</b><br>The company agreed to compensate customers for the delay.</p>
-  <p><b>中文翻译：</b><br>公司同意因延误补偿顾客。</p>
-  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>常见搭配：compensate someone for something。</p></details>
-</article>
-
-<article class="card">
-  <div class="topline"><h2>231. complacency</h2><button class="smallbtn" onclick='playBoth("complacency", "The team’s complacency caused them to lose the final match.")'>▶ 连读</button></div>
-  <button class="sound" onclick='speak("complacency",0.78)'>🔊 <span class="word">complacency</span></button>
-  <p class="ipa"><b>IPA 音标：</b>/kəmˈpleɪ.sən.si/</p>
-  <p class="spell"><b>拼读：</b>kum-PLAY-sun-see</p>
-  <div class="info"><p><b>中文：</b>自满；自鸣得意</p><p><b>英文：</b>self-satisfied ignorance of danger</p></div>
-  <p class="sub"><b>例句发音：</b></p>
-  <button class="sound sentence" onclick='speak("The team’s complacency caused them to lose the final match.",0.82)'>🔊 The team’s complacency caused them to lose the final match.</button>
-  <p><b>SAT例句：</b><br>The team’s complacency caused them to lose the final match.</p>
-  <p><b>中文翻译：</b><br>球队的自满导致他们输掉了决赛。</p>
-  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>SAT常考负面态度词：危险未意识到却自以为安全。</p></details>
-</article>
-
-<article class="card">
-  <div class="topline"><h2>232. complement</h2><button class="smallbtn" onclick='playBoth("complement", "The bright illustrations complement the story perfectly.")'>▶ 连读</button></div>
-  <button class="sound" onclick='speak("complement",0.78)'>🔊 <span class="word">complement</span></button>
-  <p class="ipa"><b>IPA 音标：</b>/ˈkɑːm.plə.ment/</p>
-  <p class="spell"><b>拼读：</b>KAHM-pluh-ment</p>
-  <div class="info"><p><b>中文：</b>补足；补充物</p><p><b>英文：</b>to complete; something that completes</p></div>
-  <p class="sub"><b>例句发音：</b></p>
-  <button class="sound sentence" onclick='speak("The bright illustrations complement the story perfectly.",0.82)'>🔊 The bright illustrations complement the story perfectly.</button>
-  <p><b>SAT例句：</b><br>The bright illustrations complement the story perfectly.</p>
-  <p><b>中文翻译：</b><br>鲜艳的插图完美地补充了这个故事。</p>
-  <details class="teacher"><summary>💡 SAT重点词汇老师讲解</summary><p>注意 complement（补充）≠ compliment（赞美）。</p></details>
-</article>
-
-
-<h1 id="quiz" class="section-title">5–10分钟小测｜答案隐藏版</h1>
-<section class="panel"><ol><li><b>1. A leader who acts with great caution and care may be described as ____.</b><ol class='opts'><li>A. commodious</li><li>B. circumspect</li><li>C. colloquial</li><li>D. cogent</li></ol><details class='answerbox'><summary>点击显示答案</summary><p>circumspect</p></details></li><li><b>2. A secret plan carried out privately can be called ____.</b><ol class='opts'><li>A. clandestine</li><li>B. cloying</li><li>C. coherent</li><li>D. commensurate</li></ol><details class='answerbox'><summary>点击显示答案</summary><p>clandestine</p></details></li><li><b>3. If two groups join together into one larger unit, they ____.</b><ol class='opts'><li>A. coalesce</li><li>B. coerce</li><li>C. coagulate</li><li>D. compensate</li></ol><details class='answerbox'><summary>点击显示答案</summary><p>coalesce</p></details></li><li><b>4. An argument that is especially convincing is ____.</b><ol class='opts'><li>A. cognizant</li><li>B. cogent</li><li>C. collateral</li><li>D. complacent</li></ol><details class='answerbox'><summary>点击显示答案</summary><p>cogent</p></details></li><li><b>5. A student who is fully aware of the risk is ____ of the consequences.</b><ol class='opts'><li>A. collusive</li><li>B. cognizant</li><li>C. clairvoyant</li><li>D. circumscribed</li></ol><details class='answerbox'><summary>点击显示答案</summary><p>cognizant</p></details></li><li><b>6. A room with a lot of space can be described as ____.</b><ol class='opts'><li>A. commodious</li><li>B. combustible</li><li>C. commensurate</li><li>D. cloying</li></ol><details class='answerbox'><summary>点击显示答案</summary><p>commodious</p></details></li><li><b>7. If two people secretly work together to cheat, that is ____.</b><ol class='opts'><li>A. collusion</li><li>B. commendation</li><li>C. clemency</li><li>D. clamor</li></ol><details class='answerbox'><summary>点击显示答案</summary><p>collusion</p></details></li><li><b>8. A speech that strongly holds the audience’s attention is ____.</b><ol class='opts'><li>A. complacent</li><li>B. compelling</li><li>C. circumspect</li><li>D. coagulated</li></ol><details class='answerbox'><summary>点击显示答案</summary><p>compelling</p></details></li></ol></section>
-
-<h1 id="cloze" class="section-title">Word 原填空练习｜答案隐藏版</h1>
-<section class="panel"><ol><li>The teacher praised the student’s ______ essay because every sentence connected clearly to the next.<details class='answerbox'><summary>点击显示答案</summary><p>coherent</p></details></li><li>The company offered to ______ the customer for the damaged package.<details class='answerbox'><summary>点击显示答案</summary><p>compensate</p></details></li><li>The judge showed ______ by reducing the young offender’s punishment.<details class='answerbox'><summary>点击显示答案</summary><p>clemency</p></details></li><li>Because the situation was highly dangerous, a careless attitude would have shown dangerous ______.<details class='answerbox'><summary>点击显示答案</summary><p>complacency</p></details></li><li>The politician tried to ______ the law by using a technical loophole.<details class='answerbox'><summary>点击显示答案</summary><p>circumvent</p></details></li><li>The overfriendly waiter’s ______ compliments made the guests uncomfortable.<details class='answerbox'><summary>点击显示答案</summary><p>cloying</p></details></li><li>The professor warned that casual slang was too ______ for a formal paper.<details class='answerbox'><summary>点击显示答案</summary><p>colloquial</p></details></li><li>The witness described a sudden ______ outside the courtroom as the crowd shouted for justice.<details class='answerbox'><summary>点击显示答案</summary><p>clamor</p></details></li><li>The scientist heated the liquid until it began to ______.<details class='answerbox'><summary>点击显示答案</summary><p>coagulate</p></details></li><li>The award was a formal ______ for years of excellent service.<details class='answerbox'><summary>点击显示答案</summary><p>commendation</p></details></li></ol></section>
-
-<h1 id="reading" class="section-title">Word 原阅读找词任务｜答案隐藏版</h1>
-<section class="panel">
-  <div class="audio-controls"><button class="topbtn" onclick="playWordPassage()">🔊 朗读原文</button><button class="topbtn gray" onclick="pauseSpeech()">⏸ 暂停</button><button class="topbtn gray" onclick="resumeSpeech()">▶ 继续</button><button class="topbtn gray" onclick="stopSpeech()">⏹ 停止</button></div>
-  <p class="story">During the investigation, the committee remained circumspect, refusing to release details before the facts were clear. Even so, a clamor grew outside the courthouse as reporters demanded updates. One journalist claimed to be clairvoyant about the outcome, but her dramatic prediction was less cogent than the careful report written by a more cognizant editor. Meanwhile, two small neighborhood groups chose to coalesce into one organization so they could more effectively oppose the developer’s clandestine plan.</p>
-  <ol><li>Which word in the passage means “careful and cautious”?<details class='answerbox'><summary>点击显示答案</summary><p>circumspect</p></details></li><li>Which word means “a loud public outcry or noise”?<details class='answerbox'><summary>点击显示答案</summary><p>clamor</p></details></li><li>Which word means “having unusual powers of perception”?<details class='answerbox'><summary>点击显示答案</summary><p>clairvoyant</p></details></li><li>Which word means “convincing”?<details class='answerbox'><summary>点击显示答案</summary><p>cogent</p></details></li><li>Which word means “aware”?<details class='answerbox'><summary>点击显示答案</summary><p>cognizant</p></details></li><li>Which word means “join together into one whole”?<details class='answerbox'><summary>点击显示答案</summary><p>coalesce</p></details></li><li>Which word means “secret”?<details class='answerbox'><summary>点击显示答案</summary><p>clandestine</p></details></li></ol>
-</section>
-
-<h1 class="section-title">Day 8 SAT Reading｜A Small Town Investigation</h1>
-<section class="panel">
-  <div class="audio-controls"><button class="topbtn" onclick="playStory()">🔊 朗读短文</button><button class="topbtn gray" onclick="pauseSpeech()">⏸ 暂停</button><button class="topbtn gray" onclick="resumeSpeech()">▶ 继续</button><button class="topbtn gray" onclick="stopSpeech()">⏹ 停止</button></div>
-  <p class="story">A Small Town Investigation
-
-The town council was usually coherent and calm, but one morning a clamor erupted outside city hall. Residents had learned about a clandestine plan to build a colossus of a shopping center on the last green field in town. The mayor tried to circumvent public discussion, but a circumspect editor named Mira remained cognizant of the risks.
-
-Mira wrote a cogent article explaining that the project’s benefits were not commensurate with its damage. She noted that the field was circumscribed by old stone walls and had long served as a place where families could gather. Several neighborhood groups decided to coalesce into one larger organization.
-
-The developer offered collateral to secure loans and promised a commodious community room, but many residents feared complacency. They did not want sweet, cloying promises to distract them from the truth. In the end, Mira’s compelling report helped the town protect the field and create a public garden instead.</p>
-</section>
-<section class="panel"><h2>Main Idea 主旨句题</h2><p><b>Q.</b> Which sentence best states the main idea of the story?</p><details class="answerbox"><summary>点击显示答案</summary><p>Careful thinking and a compelling argument can help a community resist secret plans and protect what matters.</p></details></section>
-<section class="panel"><h2>Reading Questions｜答案隐藏版</h2><ol><li><b>Q1.</b> What is the main conflict in the story?<details class='answerbox'><summary>点击显示答案</summary><p>The town must decide whether to allow a secret shopping-center project on its last green field.</p></details></li><li><b>Q2.</b> Why is Mira described as circumspect?<details class='answerbox'><summary>点击显示答案</summary><p>Because she carefully considers the risks and facts before responding.</p></details></li><li><b>Q3.</b> Which word in the story means “to avoid or get around”?<details class='answerbox'><summary>点击显示答案</summary><p>circumvent.</p></details></li><li><b>Q4.</b> Why did the neighborhood groups coalesce?<details class='answerbox'><summary>点击显示答案</summary><p>They joined together to oppose the developer more effectively.</p></details></li><li><b>Q5.</b> What does the story suggest about complacency?<details class='answerbox'><summary>点击显示答案</summary><p>It suggests that complacency can make people ignore danger or accept false promises.</p></details></li></ol></section>
-
-<h1 class="section-title">Vocabulary Cloze｜补充单词填空</h1>
-<section class="panel"><ol><li>The editor wrote a ______ article that persuaded many residents.<details class='answerbox'><summary>点击显示答案</summary><p>cogent</p></details></li><li>The neighborhood groups decided to ______ into one larger organization.<details class='answerbox'><summary>点击显示答案</summary><p>coalesce</p></details></li><li>The developer’s ______ promises made some people suspicious.<details class='answerbox'><summary>点击显示答案</summary><p>cloying</p></details></li><li>The mayor tried to ______ public discussion of the project.<details class='answerbox'><summary>点击显示答案</summary><p>circumvent</p></details></li><li>The residents feared that ______ would make the town ignore the risks.<details class='answerbox'><summary>点击显示答案</summary><p>complacency</p></details></li></ol></section>
-<div class="footer">End of Day 8 · Words 204–232</div>
-</main>
-<script>
-const allItems=[{"word": "circumscribed", "sentence": "The committee worked within a circumscribed budget and could not fund every project."}, {"word": "circumspect", "sentence": "A circumspect leader considers every risk before making a decision."}, {"word": "circumvent", "sentence": "The company tried to circumvent the rule by using a legal loophole."}, {"word": "clairvoyant", "sentence": "The clairvoyant prediction impressed the crowd, although no one could prove it."}, {"word": "clamor", "sentence": "A clamor rose outside the courthouse as reporters demanded answers."}, {"word": "clandestine", "sentence": "The spies held a clandestine meeting behind the old library."}, {"word": "cleave", "sentence": "The blade can cleave the wood, but the child still cleaves to his old teddy bear."}, {"word": "clemency", "sentence": "The judge showed clemency and reduced the young man’s sentence."}, {"word": "clergy", "sentence": "The clergy organized food and shelter for families after the flood."}, {"word": "cloying", "sentence": "The dessert was so cloying that most guests could not finish it."}, {"word": "coagulate", "sentence": "The blood began to coagulate soon after the injury."}, {"word": "coalesce", "sentence": "Several small ideas coalesced into one clear plan."}, {"word": "cobbler", "sentence": "The cobbler repaired the traveler’s worn leather boots."}, {"word": "coerce", "sentence": "The official was accused of trying to coerce witnesses into silence."}, {"word": "cogent", "sentence": "Her cogent argument changed the committee’s opinion."}, {"word": "cognizant", "sentence": "Good writers are cognizant of their audience’s expectations."}, {"word": "coherent", "sentence": "The student wrote a coherent essay with a clear structure."}, {"word": "collateral", "sentence": "The bank required collateral before approving the loan."}, {"word": "colloquial", "sentence": "The phrase was too colloquial for a formal academic essay."}, {"word": "collusion", "sentence": "The investigation found evidence of collusion between the two companies."}, {"word": "colossus", "sentence": "The technology firm became a colossus in the global market."}, {"word": "combustion", "sentence": "Combustion releases heat and light when fuel reacts with oxygen."}, {"word": "commendation", "sentence": "The volunteer received a commendation for years of service."}, {"word": "commensurate", "sentence": "Her salary should be commensurate with her experience."}, {"word": "commodious", "sentence": "The family rented a commodious house near the school."}, {"word": "compelling", "sentence": "The speaker gave a compelling reason to support the new policy."}, {"word": "compensate", "sentence": "The company agreed to compensate customers for the delay."}, {"word": "complacency", "sentence": "The team’s complacency caused them to lose the final match."}, {"word": "complement", "sentence": "The bright illustrations complement the story perfectly."}];
-const storyText="A Small Town Investigation\n\nThe town council was usually coherent and calm, but one morning a clamor erupted outside city hall. Residents had learned about a clandestine plan to build a colossus of a shopping center on the last green field in town. The mayor tried to circumvent public discussion, but a circumspect editor named Mira remained cognizant of the risks.\n\nMira wrote a cogent article explaining that the project’s benefits were not commensurate with its damage. She noted that the field was circumscribed by old stone walls and had long served as a place where families could gather. Several neighborhood groups decided to coalesce into one larger organization.\n\nThe developer offered collateral to secure loans and promised a commodious community room, but many residents feared complacency. They did not want sweet, cloying promises to distract them from the truth. In the end, Mira’s compelling report helped the town protect the field and create a public garden instead.";
-const wordPassage="During the investigation, the committee remained circumspect, refusing to release details before the facts were clear. Even so, a clamor grew outside the courthouse as reporters demanded updates. One journalist claimed to be clairvoyant about the outcome, but her dramatic prediction was less cogent than the careful report written by a more cognizant editor. Meanwhile, two small neighborhood groups chose to coalesce into one organization so they could more effectively oppose the developer’s clandestine plan.";
-let selectedVoice=null;
-function loadVoice(){const voices=window.speechSynthesis.getVoices();selectedVoice=voices.find(v=>v.lang==='en-US'&&/Samantha|Ava|Allison|Susan|Jenny|Aria|Google US English|Microsoft/i.test(v.name))||voices.find(v=>v.lang==='en-US')||voices.find(v=>v.lang&&v.lang.startsWith('en'))||null;}
-if('speechSynthesis'in window){loadVoice();window.speechSynthesis.onvoiceschanged=loadVoice;}
-function makeUtterance(text,rate=0.82){const u=new SpeechSynthesisUtterance(text);u.lang='en-US';u.rate=rate;u.pitch=1;u.volume=1;if(selectedVoice)u.voice=selectedVoice;return u;}
-function speak(text,rate=0.82){if(!('speechSynthesis'in window)){alert('这个浏览器不支持语音朗读。请用 Safari、Chrome 或 Edge 打开。');return;}window.speechSynthesis.cancel();loadVoice();window.speechSynthesis.speak(makeUtterance(text,rate));}
-function playBoth(word,sentence){window.speechSynthesis.cancel();loadVoice();const u1=makeUtterance(word,.76);const u2=makeUtterance(sentence,.82);u1.onend=()=>setTimeout(()=>window.speechSynthesis.speak(u2),350);window.speechSynthesis.speak(u1);}
-function playAll(){window.speechSynthesis.cancel();loadVoice();let i=0;function next(){if(i>=allItems.length)return;const item=allItems[i++];const u1=makeUtterance(item.word,.76);const u2=makeUtterance(item.sentence,.82);u1.onend=()=>setTimeout(()=>window.speechSynthesis.speak(u2),300);u2.onend=()=>setTimeout(next,500);window.speechSynthesis.speak(u1);}next();}
-function playStory(){window.speechSynthesis.cancel();loadVoice();window.speechSynthesis.speak(makeUtterance(storyText,0.82));}
-function playWordPassage(){window.speechSynthesis.cancel();loadVoice();window.speechSynthesis.speak(makeUtterance(wordPassage,0.82));}
-function pauseSpeech(){if('speechSynthesis'in window&&window.speechSynthesis.speaking)window.speechSynthesis.pause();}
-function resumeSpeech(){if('speechSynthesis'in window&&window.speechSynthesis.paused)window.speechSynthesis.resume();}
-function stopSpeech(){if('speechSynthesis'in window)window.speechSynthesis.cancel();}
-</script>
-</body></html>
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SAT 高频1000词 Day 8 Ultimate V8 自动错题本 · 复习功能</title><link rel="stylesheet" href="styles.css"></head>
+<body><header class="hero"><div><p class="eyebrow">SAT 高频1000词 · Day 8</p><h1>Day 8 词汇学习包 <span>204–232 · V8自动错题本 · 复习功能</span></h1><p>29词词表 + 美式标准语音朗读 + 例句朗读 + 老师讲解 + 辨析 + 小测 + 填空 + 阅读找词任务。所有答案均为隐藏版；支持刷题、留痕、本机自动保存、一键重置、自动错题本与薄弱词复习。</p></div><div class="hero-actions"><button id="readAll">▶ 朗读全部单词</button><button id="readExamples" class="read-examples">▶ 朗读全部例句</button><button id="pauseBtn">⏸ 暂停</button><button id="resumeBtn">▶ 继续</button><button id="stopBtn">■ 停止</button></div></header>
+<nav class="nav"><a href="#words">词表</a><a href="#quiz">小测</a><a href="#fill">填空</a><a href="#reading">阅读找词</a><a href="#answers">答案总览</a><button id="printBtn">打印/保存PDF</button><button id="resetPractice" class="danger">一键清除记录</button></nav>
+<main>
+<section class="panel practice-control"><h2>刷题留痕 V7</h2><p>选择练习区域后开始做题。选择题点击选项会自动保存颜色；填空题和阅读找词题可输入答案，刷新网页后记录仍保存在本机浏览器。需要重新练习时，点击“一键清除记录”。新增每个单词的例句朗读，适合跟读和语境记忆。</p><div class="practice-actions"><label for="practiceMode"><b>选择题库：</b></label><select id="practiceMode"><option value="all">全部内容</option><option value="words">只看词表</option><option value="quiz">只做小测选择题</option><option value="fill">只做填空题</option><option value="reading">只做阅读找词题</option></select><button id="checkAllBtn">检查全部可刷题</button><span id="saveStatus" class="save-status">本机自动保存已开启</span></div></section>
+<section class="panel"><h2>学习建议</h2><p>先听单词发音并跟读，再听例句；做题时不要先打开答案，完成后再自我核对。</p><p class="bank"><b>Word Bank:</b> comprehensive, concede, conciliatory, concise, concurrent, condescending, condone, confound, connoisseur, conscientious, consensus, consequential, conservative, conspicuous, consternation, construe, consummate, contemptuous, contention, contentious, contrite, contrived, conundrum, converge, convoluted, copious, corroborate, cosmopolitan, credulous</p></section>
+<section id="words"><h2>一、Day 8 词表（29词）</h2><div class="grid"><article class="card word-card" data-word="comprehensive">
+  <div class="word-top"><span class="num">204</span><h3>comprehensive</h3><button class="speak small" data-say="comprehensive">🔊 Word</button></div>
+  <p class="ipa"><span class="pill">adj.</span> <span class="pill soft">com-pre-hen-siv-e</span></p>
+  <p><b>EN</b> complete, including all or nearly all elements</p><p><b>中文</b> 全面的；综合的</p>
+  <div class="example"><div class="example-row"><p class="example-text"><b>Example</b> The teacher gave a comprehensive review before the final exam.</p><button class="speak small sentence" data-say="The teacher gave a comprehensive review before the final exam.">🔊 例句</button></div></div>
+  <details><summary>老师讲解 / 记忆提示</summary><p>In SAT context, comprehensive often appears when a sentence tests tone, cause-and-effect, or the exact meaning of a key action.</p><p class="distinguish"><b>辨析：</b>注意英文释义中的核心动作或语气，做 SAT 题时优先根据上下文判断正负色彩和逻辑关系。</p></details>
+</article><article class="card word-card" data-word="concede">
+  <div class="word-top"><span class="num">205</span><h3>concede</h3><button class="speak small" data-say="concede">🔊 Word</button></div>
+  <p class="ipa"><span class="pill">v.</span> <span class="pill soft">con-ced-e</span></p>
+  <p><b>EN</b> to admit reluctantly; to yield</p><p><b>中文</b> 承认；让步</p>
+  <div class="example"><div class="example-row"><p class="example-text"><b>Example</b> After seeing the evidence, he had to concede that he was wrong.</p><button class="speak small sentence" data-say="After seeing the evidence, he had to concede that he was wrong.">🔊 例句</button></div></div>
+  <details><summary>老师讲解 / 记忆提示</summary><p>In SAT context, concede often appears when a sentence tests tone, cause-and-effect, or the exact meaning of a key action.</p><p class="distinguish"><b>辨析：</b>注意英文释义中的核心动作或语气，做 SAT 题时优先根据上下文判断正负色彩和逻辑关系。</p></details>
+</article><article class="card word-card" data-word="conciliatory">
+  <div class="word-top"><span class="num">206</span><h3>conciliatory</h3><button class="speak small" data-say="conciliatory">🔊 Word</button></div>
+  <p class="ipa"><span class="pill">adj.</span> <span class="pill soft">con-cil-iat-ory</span></p>
+  <p><b>EN</b> intended to make peace</p><p><b>中文</b> 安抚的；调和的</p>
+  <div class="example"><div class="example-row"><p class="example-text"><b>Example</b> Her conciliatory tone helped calm the angry audience.</p><button class="speak small sentence" data-say="Her conciliatory tone helped calm the angry audience.">🔊 例句</button></div></div>
+  <details><summary>老师讲解 / 记忆提示</summary><p>In SAT context, conciliatory often appears when a sentence tests tone, cause-and-effect, or the exact meaning of a key action.</p><p class="distinguish"><b>辨析：</b>注意英文释义中的核心动作或语气，做 SAT 题时优先根据上下文判断正负色彩和逻辑关系。</p></details>
+</article><article class="card word-card" data-word="concise">
+  <div class="word-top"><span class="num">207</span><h3>concise</h3><button class="speak small" data-say="concise">🔊 Word</button></div>
+  <p class="ipa"><span class="pill">adj.</span> <span class="pill soft">con-cis-e</span></p>
+  <p><b>EN</b> brief and clear</p><p><b>中文</b> 简明的；简洁的</p>
+  <div class="example"><div class="example-row"><p class="example-text"><b>Example</b> A concise answer is often stronger than a long, confusing one.</p><button class="speak small sentence" data-say="A concise answer is often stronger than a long, confusing one.">🔊 例句</button></div></div>
+  <details><summary>老师讲解 / 记忆提示</summary><p>In SAT context, concise often appears when a sentence tests tone, cause-and-effect, or the exact meaning of a key action.</p><p class="distinguish"><b>辨析：</b>注意英文释义中的核心动作或语气，做 SAT 题时优先根据上下文判断正负色彩和逻辑关系。</p></details>
+</article><article class="card word-card" data-word="concurrent">
+  <div class="word-top"><span class="num">208</span><h3>concurrent</h3><button class="speak small" data-say="concurrent">🔊 Word</button></div>
+  <p class="ipa"><span class="pill">adj.</span> <span class="pill soft">con-cur-ren-t</span></p>
+  <p><b>EN</b> happening at the same time</p><p><b>中文</b> 同时发生的</p>
+  <div class="example"><div class="example-row"><p class="example-text"><b>Example</b> The student managed two concurrent projects during the semester.</p><button class="speak small sentence" data-say="The student managed two concurrent projects during the semester.">🔊 例句</button></div></div>
+  <details><summary>老师讲解 / 记忆提示</summary><p>In SAT context, concurrent often appears when a sentence tests tone, cause-and-effect, or the exact meaning of a key action.</p><p class="distinguish"><b>辨析：</b>注意英文释义中的核心动作或语气，做 SAT 题时优先根据上下文判断正负色彩和逻辑关系。</p></details>
+</article><article class="card word-card" data-word="condescending">
+  <div class="word-top"><span class="num">209</span><h3>condescending</h3><button class="speak small" data-say="condescending">🔊 Word</button></div>
+  <p class="ipa"><span class="pill">adj.</span> <span class="pill soft">con-des-cen-din-g</span></p>
+  <p><b>EN</b> showing a feeling of superiority</p><p><b>中文</b> 居高临下的；傲慢的</p>
+  <div class="example"><div class="example-row"><p class="example-text"><b>Example</b> His condescending explanation annoyed the experienced workers.</p><button class="speak small sentence" data-say="His condescending explanation annoyed the experienced workers.">🔊 例句</button></div></div>
+  <details><summary>老师讲解 / 记忆提示</summary><p>In SAT context, condescending often appears when a sentence tests tone, cause-and-effect, or the exact meaning of a key action.</p><p class="distinguish"><b>辨析：</b>注意英文释义中的核心动作或语气，做 SAT 题时优先根据上下文判断正负色彩和逻辑关系。</p></details>
+</article><article class="card word-card" data-word="condone">
+  <div class="word-top"><span class="num">210</span><h3>condone</h3><button class="speak small" data-say="condone">🔊 Word</button></div>
+  <p class="ipa"><span class="pill">v.</span> <span class="pill soft">con-don-e</span></p>
+  <p><b>EN</b> to overlook or accept wrongdoing</p><p><b>中文</b> 宽恕；纵容</p>
+  <div class="example"><div class="example-row"><p class="example-text"><b>Example</b> The school cannot condone cheating on exams.</p><button class="speak small sentence" data-say="The school cannot condone cheating on exams.">🔊 例句</button></div></div>
+  <details><summary>老师讲解 / 记忆提示</summary><p>In SAT context, condone often appears when a sentence tests tone, cause-and-effect, or the exact meaning of a key action.</p><p class="distinguish"><b>辨析：</b>注意英文释义中的核心动作或语气，做 SAT 题时优先根据上下文判断正负色彩和逻辑关系。</p></details>
+</article><article class="card word-card" data-word="confound">
+  <div class="word-top"><span class="num">211</span><h3>confound</h3><button class="speak small" data-say="confound">🔊 Word</button></div>
+  <p class="ipa"><span class="pill">v.</span> <span class="pill soft">con-fou-nd</span></p>
+  <p><b>EN</b> to confuse or puzzle</p><p><b>中文</b> 使困惑；混淆</p>
+  <div class="example"><div class="example-row"><p class="example-text"><b>Example</b> The strange results confound even the most experienced scientists.</p><button class="speak small sentence" data-say="The strange results confound even the most experienced scientists.">🔊 例句</button></div></div>
+  <details><summary>老师讲解 / 记忆提示</summary><p>In SAT context, confound often appears when a sentence tests tone, cause-and-effect, or the exact meaning of a key action.</p><p class="distinguish"><b>辨析：</b>注意英文释义中的核心动作或语气，做 SAT 题时优先根据上下文判断正负色彩和逻辑关系。</p></details>
+</article><article class="card word-card" data-word="connoisseur">
+  <div class="word-top"><span class="num">212</span><h3>connoisseur</h3><button class="speak small" data-say="connoisseur">🔊 Word</button></div>
+  <p class="ipa"><span class="pill">n.</span> <span class="pill soft">con-noi-sse-ur</span></p>
+  <p><b>EN</b> an expert judge in matters of taste</p><p><b>中文</b> 鉴赏家；内行</p>
+  <div class="example"><div class="example-row"><p class="example-text"><b>Example</b> A connoisseur of music can notice subtle differences in performance.</p><button class="speak small sentence" data-say="A connoisseur of music can notice subtle differences in performance.">🔊 例句</button></div></div>
+  <details><summary>老师讲解 / 记忆提示</summary><p>In SAT context, connoisseur often appears when a sentence tests tone, cause-and-effect, or the exact meaning of a key action.</p><p class="distinguish"><b>辨析：</b>注意英文释义中的核心动作或语气，做 SAT 题时优先根据上下文判断正负色彩和逻辑关系。</p></details>
+</article><article class="card word-card" data-word="conscientious">
+  <div class="word-top"><span class="num">213</span><h3>conscientious</h3><button class="speak small" data-say="conscientious">🔊 Word</button></div>
+  <p class="ipa"><span class="pill">adj.</span> <span class="pill soft">con-sci-ent-iou-s</span></p>
+  <p><b>EN</b> careful, responsible, guided by duty</p><p><b>中文</b> 认真负责的；尽责的</p>
+  <div class="example"><div class="example-row"><p class="example-text"><b>Example</b> The conscientious student checked every answer twice.</p><button class="speak small sentence" data-say="The conscientious student checked every answer twice.">🔊 例句</button></div></div>
+  <details><summary>老师讲解 / 记忆提示</summary><p>In SAT context, conscientious often appears when a sentence tests tone, cause-and-effect, or the exact meaning of a key action.</p><p class="distinguish"><b>辨析：</b>注意英文释义中的核心动作或语气，做 SAT 题时优先根据上下文判断正负色彩和逻辑关系。</p></details>
+</article><article class="card word-card" data-word="consensus">
+  <div class="word-top"><span class="num">214</span><h3>consensus</h3><button class="speak small" data-say="consensus">🔊 Word</button></div>
+  <p class="ipa"><span class="pill">n.</span> <span class="pill soft">con-sen-sus</span></p>
+  <p><b>EN</b> general agreement</p><p><b>中文</b> 共识；一致意见</p>
+  <div class="example"><div class="example-row"><p class="example-text"><b>Example</b> After hours of discussion, the committee finally reached a consensus.</p><button class="speak small sentence" data-say="After hours of discussion, the committee finally reached a consensus.">🔊 例句</button></div></div>
+  <details><summary>老师讲解 / 记忆提示</summary><p>In SAT context, consensus often appears when a sentence tests tone, cause-and-effect, or the exact meaning of a key action.</p><p class="distinguish"><b>辨析：</b>注意英文释义中的核心动作或语气，做 SAT 题时优先根据上下文判断正负色彩和逻辑关系。</p></details>
+</article><article class="card word-card" data-word="consequential">
+  <div class="word-top"><span class="num">215</span><h3>consequential</h3><button class="speak small" data-say="consequential">🔊 Word</button></div>
+  <p class="ipa"><span class="pill">adj.</span> <span class="pill soft">con-seq-uen-tia-l</span></p>
+  <p><b>EN</b> important, significant, following as a result</p><p><b>中文</b> 重要的；作为结果的</p>
+  <div class="example"><div class="example-row"><p class="example-text"><b>Example</b> The court’s decision had consequential effects on public policy.</p><button class="speak small sentence" data-say="The court’s decision had consequential effects on public policy.">🔊 例句</button></div></div>
+  <details><summary>老师讲解 / 记忆提示</summary><p>In SAT context, consequential often appears when a sentence tests tone, cause-and-effect, or the exact meaning of a key action.</p><p class="distinguish"><b>辨析：</b>注意英文释义中的核心动作或语气，做 SAT 题时优先根据上下文判断正负色彩和逻辑关系。</p></details>
+</article><article class="card word-card" data-word="conservative">
+  <div class="word-top"><span class="num">216</span><h3>conservative</h3><button class="speak small" data-say="conservative">🔊 Word</button></div>
+  <p class="ipa"><span class="pill">adj.</span> <span class="pill soft">con-ser-vat-ive</span></p>
+  <p><b>EN</b> cautious; resistant to change</p><p><b>中文</b> 保守的；谨慎的</p>
+  <div class="example"><div class="example-row"><p class="example-text"><b>Example</b> The company took a conservative approach to spending.</p><button class="speak small sentence" data-say="The company took a conservative approach to spending.">🔊 例句</button></div></div>
+  <details><summary>老师讲解 / 记忆提示</summary><p>In SAT context, conservative often appears when a sentence tests tone, cause-and-effect, or the exact meaning of a key action.</p><p class="distinguish"><b>辨析：</b>注意英文释义中的核心动作或语气，做 SAT 题时优先根据上下文判断正负色彩和逻辑关系。</p></details>
+</article><article class="card word-card" data-word="conspicuous">
+  <div class="word-top"><span class="num">217</span><h3>conspicuous</h3><button class="speak small" data-say="conspicuous">🔊 Word</button></div>
+  <p class="ipa"><span class="pill">adj.</span> <span class="pill soft">con-spi-cuo-us</span></p>
+  <p><b>EN</b> easily seen, obvious</p><p><b>中文</b> 显眼的；明显的</p>
+  <div class="example"><div class="example-row"><p class="example-text"><b>Example</b> The bright red sign was conspicuous from across the street.</p><button class="speak small sentence" data-say="The bright red sign was conspicuous from across the street.">🔊 例句</button></div></div>
+  <details><summary>老师讲解 / 记忆提示</summary><p>In SAT context, conspicuous often appears when a sentence tests tone, cause-and-effect, or the exact meaning of a key action.</p><p class="distinguish"><b>辨析：</b>注意英文释义中的核心动作或语气，做 SAT 题时优先根据上下文判断正负色彩和逻辑关系。</p></details>
+</article><article class="card word-card" data-word="consternation">
+  <div class="word-top"><span class="num">218</span><h3>consternation</h3><button class="speak small" data-say="consternation">🔊 Word</button></div>
+  <p class="ipa"><span class="pill">n.</span> <span class="pill soft">con-ste-rna-tio-n</span></p>
+  <p><b>EN</b> sudden alarm or anxiety</p><p><b>中文</b> 惊愕；恐慌</p>
+  <div class="example"><div class="example-row"><p class="example-text"><b>Example</b> The sudden announcement caused consternation among the parents.</p><button class="speak small sentence" data-say="The sudden announcement caused consternation among the parents.">🔊 例句</button></div></div>
+  <details><summary>老师讲解 / 记忆提示</summary><p>In SAT context, consternation often appears when a sentence tests tone, cause-and-effect, or the exact meaning of a key action.</p><p class="distinguish"><b>辨析：</b>注意英文释义中的核心动作或语气，做 SAT 题时优先根据上下文判断正负色彩和逻辑关系。</p></details>
+</article><article class="card word-card" data-word="construe">
+  <div class="word-top"><span class="num">219</span><h3>construe</h3><button class="speak small" data-say="construe">🔊 Word</button></div>
+  <p class="ipa"><span class="pill">v.</span> <span class="pill soft">con-str-ue</span></p>
+  <p><b>EN</b> to interpret or understand in a particular way</p><p><b>中文</b> 解释；理解</p>
+  <div class="example"><div class="example-row"><p class="example-text"><b>Example</b> Some readers may construe the poem as a criticism of society.</p><button class="speak small sentence" data-say="Some readers may construe the poem as a criticism of society.">🔊 例句</button></div></div>
+  <details><summary>老师讲解 / 记忆提示</summary><p>In SAT context, construe often appears when a sentence tests tone, cause-and-effect, or the exact meaning of a key action.</p><p class="distinguish"><b>辨析：</b>注意英文释义中的核心动作或语气，做 SAT 题时优先根据上下文判断正负色彩和逻辑关系。</p></details>
+</article><article class="card word-card" data-word="consummate">
+  <div class="word-top"><span class="num">220</span><h3>consummate</h3><button class="speak small" data-say="consummate">🔊 Word</button></div>
+  <p class="ipa"><span class="pill">adj./v.</span> <span class="pill soft">con-sum-mat-e</span></p>
+  <p><b>EN</b> complete or perfect; to complete</p><p><b>中文</b> 完美的；完成</p>
+  <div class="example"><div class="example-row"><p class="example-text"><b>Example</b> She is a consummate professional who prepares for every detail.</p><button class="speak small sentence" data-say="She is a consummate professional who prepares for every detail.">🔊 例句</button></div></div>
+  <details><summary>老师讲解 / 记忆提示</summary><p>In SAT context, consummate often appears when a sentence tests tone, cause-and-effect, or the exact meaning of a key action.</p><p class="distinguish"><b>辨析：</b>注意英文释义中的核心动作或语气，做 SAT 题时优先根据上下文判断正负色彩和逻辑关系。</p></details>
+</article><article class="card word-card" data-word="contemptuous">
+  <div class="word-top"><span class="num">221</span><h3>contemptuous</h3><button class="speak small" data-say="contemptuous">🔊 Word</button></div>
+  <p class="ipa"><span class="pill">adj.</span> <span class="pill soft">con-tem-ptu-ous</span></p>
+  <p><b>EN</b> showing scorn or disrespect</p><p><b>中文</b> 轻蔑的；鄙视的</p>
+  <div class="example"><div class="example-row"><p class="example-text"><b>Example</b> His contemptuous attitude made cooperation difficult.</p><button class="speak small sentence" data-say="His contemptuous attitude made cooperation difficult.">🔊 例句</button></div></div>
+  <details><summary>老师讲解 / 记忆提示</summary><p>In SAT context, contemptuous often appears when a sentence tests tone, cause-and-effect, or the exact meaning of a key action.</p><p class="distinguish"><b>辨析：</b>注意英文释义中的核心动作或语气，做 SAT 题时优先根据上下文判断正负色彩和逻辑关系。</p></details>
+</article><article class="card word-card" data-word="contention">
+  <div class="word-top"><span class="num">222</span><h3>contention</h3><button class="speak small" data-say="contention">🔊 Word</button></div>
+  <p class="ipa"><span class="pill">n.</span> <span class="pill soft">con-ten-tio-n</span></p>
+  <p><b>EN</b> a claim; disagreement</p><p><b>中文</b> 主张；争论</p>
+  <div class="example"><div class="example-row"><p class="example-text"><b>Example</b> The author’s main contention is that education should be more practical.</p><button class="speak small sentence" data-say="The author’s main contention is that education should be more practical.">🔊 例句</button></div></div>
+  <details><summary>老师讲解 / 记忆提示</summary><p>In SAT context, contention often appears when a sentence tests tone, cause-and-effect, or the exact meaning of a key action.</p><p class="distinguish"><b>辨析：</b>注意英文释义中的核心动作或语气，做 SAT 题时优先根据上下文判断正负色彩和逻辑关系。</p></details>
+</article><article class="card word-card" data-word="contentious">
+  <div class="word-top"><span class="num">223</span><h3>contentious</h3><button class="speak small" data-say="contentious">🔊 Word</button></div>
+  <p class="ipa"><span class="pill">adj.</span> <span class="pill soft">con-ten-tio-us</span></p>
+  <p><b>EN</b> causing or likely to cause argument</p><p><b>中文</b> 有争议的；好争论的</p>
+  <div class="example"><div class="example-row"><p class="example-text"><b>Example</b> The new policy became a contentious topic at the meeting.</p><button class="speak small sentence" data-say="The new policy became a contentious topic at the meeting.">🔊 例句</button></div></div>
+  <details><summary>老师讲解 / 记忆提示</summary><p>In SAT context, contentious often appears when a sentence tests tone, cause-and-effect, or the exact meaning of a key action.</p><p class="distinguish"><b>辨析：</b>注意英文释义中的核心动作或语气，做 SAT 题时优先根据上下文判断正负色彩和逻辑关系。</p></details>
+</article><article class="card word-card" data-word="contrite">
+  <div class="word-top"><span class="num">224</span><h3>contrite</h3><button class="speak small" data-say="contrite">🔊 Word</button></div>
+  <p class="ipa"><span class="pill">adj.</span> <span class="pill soft">con-tri-te</span></p>
+  <p><b>EN</b> feeling regret for wrongdoing</p><p><b>中文</b> 悔悟的；懊悔的</p>
+  <div class="example"><div class="example-row"><p class="example-text"><b>Example</b> The contrite student apologized for breaking the rule.</p><button class="speak small sentence" data-say="The contrite student apologized for breaking the rule.">🔊 例句</button></div></div>
+  <details><summary>老师讲解 / 记忆提示</summary><p>In SAT context, contrite often appears when a sentence tests tone, cause-and-effect, or the exact meaning of a key action.</p><p class="distinguish"><b>辨析：</b>注意英文释义中的核心动作或语气，做 SAT 题时优先根据上下文判断正负色彩和逻辑关系。</p></details>
+</article><article class="card word-card" data-word="contrived">
+  <div class="word-top"><span class="num">225</span><h3>contrived</h3><button class="speak small" data-say="contrived">🔊 Word</button></div>
+  <p class="ipa"><span class="pill">adj.</span> <span class="pill soft">con-tri-ved</span></p>
+  <p><b>EN</b> artificial, forced, not natural</p><p><b>中文</b> 做作的；牵强的</p>
+  <div class="example"><div class="example-row"><p class="example-text"><b>Example</b> The ending of the story felt contrived rather than believable.</p><button class="speak small sentence" data-say="The ending of the story felt contrived rather than believable.">🔊 例句</button></div></div>
+  <details><summary>老师讲解 / 记忆提示</summary><p>In SAT context, contrived often appears when a sentence tests tone, cause-and-effect, or the exact meaning of a key action.</p><p class="distinguish"><b>辨析：</b>注意英文释义中的核心动作或语气，做 SAT 题时优先根据上下文判断正负色彩和逻辑关系。</p></details>
+</article><article class="card word-card" data-word="conundrum">
+  <div class="word-top"><span class="num">226</span><h3>conundrum</h3><button class="speak small" data-say="conundrum">🔊 Word</button></div>
+  <p class="ipa"><span class="pill">n.</span> <span class="pill soft">con-und-rum</span></p>
+  <p><b>EN</b> a difficult problem or puzzle</p><p><b>中文</b> 难题；谜题</p>
+  <div class="example"><div class="example-row"><p class="example-text"><b>Example</b> The budget shortage created a serious conundrum for the board.</p><button class="speak small sentence" data-say="The budget shortage created a serious conundrum for the board.">🔊 例句</button></div></div>
+  <details><summary>老师讲解 / 记忆提示</summary><p>In SAT context, conundrum often appears when a sentence tests tone, cause-and-effect, or the exact meaning of a key action.</p><p class="distinguish"><b>辨析：</b>注意英文释义中的核心动作或语气，做 SAT 题时优先根据上下文判断正负色彩和逻辑关系。</p></details>
+</article><article class="card word-card" data-word="converge">
+  <div class="word-top"><span class="num">227</span><h3>converge</h3><button class="speak small" data-say="converge">🔊 Word</button></div>
+  <p class="ipa"><span class="pill">v.</span> <span class="pill soft">con-ver-ge</span></p>
+  <p><b>EN</b> to come together from different directions</p><p><b>中文</b> 汇聚；趋同</p>
+  <div class="example"><div class="example-row"><p class="example-text"><b>Example</b> Several roads converge near the old city gate.</p><button class="speak small sentence" data-say="Several roads converge near the old city gate.">🔊 例句</button></div></div>
+  <details><summary>老师讲解 / 记忆提示</summary><p>In SAT context, converge often appears when a sentence tests tone, cause-and-effect, or the exact meaning of a key action.</p><p class="distinguish"><b>辨析：</b>注意英文释义中的核心动作或语气，做 SAT 题时优先根据上下文判断正负色彩和逻辑关系。</p></details>
+</article><article class="card word-card" data-word="convoluted">
+  <div class="word-top"><span class="num">228</span><h3>convoluted</h3><button class="speak small" data-say="convoluted">🔊 Word</button></div>
+  <p class="ipa"><span class="pill">adj.</span> <span class="pill soft">con-vol-ute-d</span></p>
+  <p><b>EN</b> complex and difficult to follow</p><p><b>中文</b> 复杂难懂的；盘绕的</p>
+  <div class="example"><div class="example-row"><p class="example-text"><b>Example</b> The explanation was so convoluted that the class became confused.</p><button class="speak small sentence" data-say="The explanation was so convoluted that the class became confused.">🔊 例句</button></div></div>
+  <details><summary>老师讲解 / 记忆提示</summary><p>In SAT context, convoluted often appears when a sentence tests tone, cause-and-effect, or the exact meaning of a key action.</p><p class="distinguish"><b>辨析：</b>注意英文释义中的核心动作或语气，做 SAT 题时优先根据上下文判断正负色彩和逻辑关系。</p></details>
+</article><article class="card word-card" data-word="copious">
+  <div class="word-top"><span class="num">229</span><h3>copious</h3><button class="speak small" data-say="copious">🔊 Word</button></div>
+  <p class="ipa"><span class="pill">adj.</span> <span class="pill soft">cop-iou-s</span></p>
+  <p><b>EN</b> abundant, plentiful</p><p><b>中文</b> 大量的；丰富的</p>
+  <div class="example"><div class="example-row"><p class="example-text"><b>Example</b> The researcher took copious notes during the interview.</p><button class="speak small sentence" data-say="The researcher took copious notes during the interview.">🔊 例句</button></div></div>
+  <details><summary>老师讲解 / 记忆提示</summary><p>In SAT context, copious often appears when a sentence tests tone, cause-and-effect, or the exact meaning of a key action.</p><p class="distinguish"><b>辨析：</b>注意英文释义中的核心动作或语气，做 SAT 题时优先根据上下文判断正负色彩和逻辑关系。</p></details>
+</article><article class="card word-card" data-word="corroborate">
+  <div class="word-top"><span class="num">230</span><h3>corroborate</h3><button class="speak small" data-say="corroborate">🔊 Word</button></div>
+  <p class="ipa"><span class="pill">v.</span> <span class="pill soft">cor-rob-ora-te</span></p>
+  <p><b>EN</b> to confirm with evidence</p><p><b>中文</b> 证实；支持</p>
+  <div class="example"><div class="example-row"><p class="example-text"><b>Example</b> The witness helped corroborate the victim’s account.</p><button class="speak small sentence" data-say="The witness helped corroborate the victim’s account.">🔊 例句</button></div></div>
+  <details><summary>老师讲解 / 记忆提示</summary><p>In SAT context, corroborate often appears when a sentence tests tone, cause-and-effect, or the exact meaning of a key action.</p><p class="distinguish"><b>辨析：</b>注意英文释义中的核心动作或语气，做 SAT 题时优先根据上下文判断正负色彩和逻辑关系。</p></details>
+</article><article class="card word-card" data-word="cosmopolitan">
+  <div class="word-top"><span class="num">231</span><h3>cosmopolitan</h3><button class="speak small" data-say="cosmopolitan">🔊 Word</button></div>
+  <p class="ipa"><span class="pill">adj.</span> <span class="pill soft">cos-mop-oli-tan</span></p>
+  <p><b>EN</b> worldly, familiar with many cultures</p><p><b>中文</b> 世界性的；见多识广的</p>
+  <div class="example"><div class="example-row"><p class="example-text"><b>Example</b> New York is a cosmopolitan city with many languages and traditions.</p><button class="speak small sentence" data-say="New York is a cosmopolitan city with many languages and traditions.">🔊 例句</button></div></div>
+  <details><summary>老师讲解 / 记忆提示</summary><p>In SAT context, cosmopolitan often appears when a sentence tests tone, cause-and-effect, or the exact meaning of a key action.</p><p class="distinguish"><b>辨析：</b>注意英文释义中的核心动作或语气，做 SAT 题时优先根据上下文判断正负色彩和逻辑关系。</p></details>
+</article><article class="card word-card" data-word="credulous">
+  <div class="word-top"><span class="num">232</span><h3>credulous</h3><button class="speak small" data-say="credulous">🔊 Word</button></div>
+  <p class="ipa"><span class="pill">adj.</span> <span class="pill soft">cre-dul-ous</span></p>
+  <p><b>EN</b> too ready to believe things</p><p><b>中文</b> 轻信的；易受骗的</p>
+  <div class="example"><div class="example-row"><p class="example-text"><b>Example</b> A credulous reader may accept false claims without checking evidence.</p><button class="speak small sentence" data-say="A credulous reader may accept false claims without checking evidence.">🔊 例句</button></div></div>
+  <details><summary>老师讲解 / 记忆提示</summary><p>In SAT context, credulous often appears when a sentence tests tone, cause-and-effect, or the exact meaning of a key action.</p><p class="distinguish"><b>辨析：</b>注意英文释义中的核心动作或语气，做 SAT 题时优先根据上下文判断正负色彩和逻辑关系。</p></details>
+</article></div></section>
+<section id="quiz" class="panel"><h2>二、5–10分钟小测</h2><div class="question"><p><b>1.</b> A brief and clear explanation is ____.</p><ol type="A"><li>convoluted</li><li>concise</li><li>contentious</li><li>credulous</li></ol><details class="answer"><summary>显示答案</summary><p>B. concise</p></details></div><div class="question"><p><b>2.</b> To confirm a claim with evidence is to ____ it.</p><ol type="A"><li>corroborate</li><li>condone</li><li>construe</li><li>concede</li></ol><details class="answer"><summary>显示答案</summary><p>A. corroborate</p></details></div><div class="question"><p><b>3.</b> A person who believes too easily is ____.</p><ol type="A"><li>cosmopolitan</li><li>conscientious</li><li>credulous</li><li>contrite</li></ol><details class="answer"><summary>显示答案</summary><p>C. credulous</p></details></div><div class="question"><p><b>4.</b> A topic likely to cause argument is ____.</p><ol type="A"><li>conciliatory</li><li>contentious</li><li>concurrent</li><li>conspicuous</li></ol><details class="answer"><summary>显示答案</summary><p>B. contentious</p></details></div><div class="question"><p><b>5.</b> General agreement among a group is called ____.</p><ol type="A"><li>consensus</li><li>contention</li><li>consternation</li><li>conundrum</li></ol><details class="answer"><summary>显示答案</summary><p>A. consensus</p></details></div><div class="question"><p><b>6.</b> A calm, peace-making tone is ____.</p><ol type="A"><li>condescending</li><li>conciliatory</li><li>contemptuous</li><li>conservative</li></ol><details class="answer"><summary>显示答案</summary><p>B. conciliatory</p></details></div><div class="question"><p><b>7.</b> Something obvious and easily seen is ____.</p><ol type="A"><li>conspicuous</li><li>consummate</li><li>contrived</li><li>copious</li></ol><details class="answer"><summary>显示答案</summary><p>A. conspicuous</p></details></div><div class="question"><p><b>8.</b> A difficult puzzle or problem is a ____.</p><ol type="A"><li>connoisseur</li><li>conundrum</li><li>contention</li><li>consensus</li></ol><details class="answer"><summary>显示答案</summary><p>B. conundrum</p></details></div></section>
+<section id="fill" class="panel"><h2>三、填空练习</h2><div class="question"><p><b>1.</b> The class reached a ______ after discussing the issue for an hour.</p><details class="answer"><summary>显示答案</summary><p>consensus</p></details></div><div class="question"><p><b>2.</b> The lawyer needed another witness to ______ the story.</p><details class="answer"><summary>显示答案</summary><p>corroborate</p></details></div><div class="question"><p><b>3.</b> Her answer was ______, clear, and easy to remember.</p><details class="answer"><summary>显示答案</summary><p>concise</p></details></div><div class="question"><p><b>4.</b> The sudden cancellation caused ______ among the travelers.</p><details class="answer"><summary>显示答案</summary><p>consternation</p></details></div><div class="question"><p><b>5.</b> The movie’s plot felt ______ and unnatural.</p><details class="answer"><summary>显示答案</summary><p>contrived</p></details></div><div class="question"><p><b>6.</b> The chef was a true ______ of fine food.</p><details class="answer"><summary>显示答案</summary><p>connoisseur</p></details></div><div class="question"><p><b>7.</b> The two hiking trails ______ at the top of the hill.</p><details class="answer"><summary>显示答案</summary><p>converge</p></details></div><div class="question"><p><b>8.</b> The student was ______ and completed every assignment carefully.</p><details class="answer"><summary>显示答案</summary><p>conscientious</p></details></div><div class="question"><p><b>9.</b> The rule change became a highly ______ issue.</p><details class="answer"><summary>显示答案</summary><p>contentious</p></details></div><div class="question"><p><b>10.</b> The directions were so ______ that nobody understood them.</p><details class="answer"><summary>显示答案</summary><p>convoluted</p></details></div></section>
+<section id="reading" class="panel"><h2>四、阅读找词任务</h2><div class="reader"><p id="readingText">At the town meeting, the mayor hoped to reach a consensus about a contentious parking plan. A conscientious planner gave a concise explanation, but one resident found the map convoluted and difficult to construe. Another speaker offered data to corroborate the need for change. Although the debate caused consternation at first, a conciliatory compromise helped the different groups converge on a solution.</p><div><button class="speak" data-say="At the town meeting, the mayor hoped to reach a consensus about a contentious parking plan. A conscientious planner gave a concise explanation, but one resident found the map convoluted and difficult to construe. Another speaker offered data to corroborate the need for change. Although the debate caused consternation at first, a conciliatory compromise helped the different groups converge on a solution.">▶ 朗读短文</button><button id="pauseReading">⏸ 暂停</button><button id="resumeReading">▶ 继续</button><button id="stopReading">■ 停止</button></div></div><div class="question"><p><b>1.</b> Which word means “general agreement”?</p><details class="answer"><summary>显示答案</summary><p>consensus</p></details></div><div class="question"><p><b>2.</b> Which word means “likely to cause argument”?</p><details class="answer"><summary>显示答案</summary><p>contentious</p></details></div><div class="question"><p><b>3.</b> Which word means “careful and responsible”?</p><details class="answer"><summary>显示答案</summary><p>conscientious</p></details></div><div class="question"><p><b>4.</b> Which word means “brief and clear”?</p><details class="answer"><summary>显示答案</summary><p>concise</p></details></div><div class="question"><p><b>5.</b> Which word means “complex and hard to follow”?</p><details class="answer"><summary>显示答案</summary><p>convoluted</p></details></div><div class="question"><p><b>6.</b> Which word means “to interpret or understand”?</p><details class="answer"><summary>显示答案</summary><p>construe</p></details></div><div class="question"><p><b>7.</b> Which word means “to confirm with evidence”?</p><details class="answer"><summary>显示答案</summary><p>corroborate</p></details></div><div class="question"><p><b>8.</b> Which word means “to come together”?</p><details class="answer"><summary>显示答案</summary><p>converge</p></details></div></section>
+<section id="answers" class="panel"><h2>五、答案总览（隐藏版）</h2><details class="answer"><summary>显示全部答案</summary><div class="answers-grid"><div><h3>小测</h3><p>1. B</p><p>2. A</p><p>3. C</p><p>4. B</p><p>5. A</p><p>6. B</p><p>7. A</p><p>8. B</p></div><div><h3>填空</h3><p>1. consensus</p><p>2. corroborate</p><p>3. concise</p><p>4. consternation</p><p>5. contrived</p><p>6. connoisseur</p><p>7. converge</p><p>8. conscientious</p><p>9. contentious</p><p>10. convoluted</p></div><div><h3>阅读</h3><p>1. consensus</p><p>2. contentious</p><p>3. conscientious</p><p>4. concise</p><p>5. convoluted</p><p>6. construe</p><p>7. corroborate</p><p>8. converge</p></div></div></details></section>
+<section class="panel"><h2>六、自我复盘小栏</h2><table><tr><th>我最不熟的5个词</th><th>我做错最多的题型</th><th>今天需要二次复习的词</th><th>明天复习打卡</th></tr><tr><td></td><td></td><td></td><td>□ 已完成</td></tr><tr><td></td><td></td><td></td><td>□ 已完成</td></tr><tr><td></td><td></td><td></td><td>□ 已完成</td></tr></table></section>
+</main><script src="app.js"></script></body></html>
