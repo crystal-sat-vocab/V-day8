@@ -38,9 +38,9 @@ function setupSentenceControls(){
 
 
 const V7_KEY = 'SAT_DAY8_V8_MISTAKE_REVIEW_STATE';
-const QUIZ_ANSWERS = ['B', 'A', 'C', 'B', 'A', 'B', 'A', 'B'];
-const FILL_ANSWERS = ['consensus', 'corroborate', 'concise', 'consternation', 'contrived', 'connoisseur', 'converge', 'conscientious', 'contentious', 'convoluted'];
-const READING_ANSWERS = ['consensus', 'contentious', 'conscientious', 'concise', 'convoluted', 'construe', 'corroborate', 'converge'];
+const QUIZ_ANSWERS = ['B', 'A', 'A', 'B', 'B', 'A', 'A', 'B'];
+const FILL_ANSWERS = ['coherent', 'compensate', 'clemency', 'complacency', 'circumvent', 'cloying', 'colloquial', 'clamor', 'coagulate', 'commendation'];
+const READING_ANSWERS = ['circumspect', 'clamor', 'clairvoyant', 'cogent', 'cognizant', 'coalesce', 'clandestine'];
 function normalizeAnswer(value) { return (value||'').trim().toLowerCase().replace(/[.,;:!?]+$/g,'').replace(/\s+/g,' '); }
 function defaultPracticeState(){ return {quiz:{}, fill:{}, reading:{}, details:{}, mistakes:{}}; }
 function loadPracticeState() { try { const s=JSON.parse(localStorage.getItem(V7_KEY)) || defaultPracticeState(); s.quiz=s.quiz||{}; s.fill=s.fill||{}; s.reading=s.reading||{}; s.details=s.details||{}; s.mistakes=s.mistakes||{}; return s; } catch(e) { return defaultPracticeState(); } }

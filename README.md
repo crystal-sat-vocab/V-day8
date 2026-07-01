@@ -1,6 +1,6 @@
 # SAT Day8 Ultimate V8 根目录直传版
 
-本包按已确认正确的 Day6 Ultimate V8 根目录直传版模板整理。
+本包根据最新上传的《SAT高频1000词_第8天.docx》重新生成，词表为 circumscribed–complement（204–232）。
 
 ## 上传方式
 
